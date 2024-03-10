@@ -51,20 +51,17 @@
     }
   }
   .img{
-    // width: 203px;
-    // height: 500px;
-    // margin-right: 330px;
     width: 18%;
     height: 10%;
   }
   .topBlur{
     position: absolute;
-    width: 55vw;
+    width: 40vw;
     height: 45vw;
     min-width: 350px;
     min-width: 250px;
-    top : -128px;
-    left: -10vw;
+    top : -42px;
+    left: -5vw;
     border-radius: 746px;
     background: rgba(25,55,109,0.7);
     filter: blur(100px);
