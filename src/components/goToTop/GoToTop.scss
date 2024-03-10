@@ -1,0 +1,56 @@
+.go-to-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .topBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 14px;
+    color : white;
+    background: linear-gradient(to right, #279ff5 ,#4bfadd);
+    border-radius: 100%;
+    box-shadow: 0 0 4px 0 rbga(0, 0, 0, 0.25);
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    cursor: pointer;
+
+    &:hover{
+      border: 1px solid rgb(248, 115, 5);
+    }
+
+    .icon{
+      animation: go-to-top 1.2s linear infinite alternate-reverse;
+      
+      @keyframes go-to-top {
+        0% {
+          transform: translateY(-0.5rem);
+        }
+        100% {
+          transform: translateY(0.5rem);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width : 830px) {
+  .go-to-top{
+    .topBtn{
+      width: 2rem;
+      height: 2rem;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      .icon{
+        .arrow{
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
