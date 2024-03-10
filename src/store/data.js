@@ -69,7 +69,7 @@ export const projects = [
     desc: "A portfolio website showcasing expertise in frontend technologies to create dynamic and responsive UI.",
     skills: ["ReactJS", "scss", "JS", "EmailJS"],
     demo: "",
-    source: "skdfh",
+    source: "https://github.com/SurajKrYadav-SKY/my-portfolio",
   },
   {
     title: "You Tube clone",
