@@ -79,6 +79,15 @@ export const projects = [
     demo: "null",
     source: "null",
   },
+  {
+    title: "Connect",
+    img: "./images/project.png",
+    desc: "The UI of a free market place. For more details go to source or demo",
+    skills: ["ReactJS", "scss", "JS"],
+    demo: "https://connect-freelance-service-markerplace.netlify.app/",
+    source:
+      "https://github.com/SurajKrYadav-SKY/Connect-Freelance-Service-Marketplace",
+  },
 ];
 
 export const skills = [
