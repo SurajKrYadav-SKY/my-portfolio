@@ -82,11 +82,10 @@ export const projects = [
   {
     title: "Connect",
     img: "./images/project.png",
-    desc: "The UI of a free market place. For more details go to source or demo",
+    desc: "The UI of a service market place. For more details go to source or demo",
     skills: ["ReactJS", "scss", "JS"],
-    demo: "https://connect-freelance-service-markerplace.netlify.app/",
-    source:
-      "https://github.com/SurajKrYadav-SKY/Connect-Freelance-Service-Marketplace",
+    demo: "https://connect-service-markerplace.netlify.app/",
+    source: "https://github.com/SurajKrYadav-SKY/Connect-Service-Marketplace",
   },
 ];
 
