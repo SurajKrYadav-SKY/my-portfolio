@@ -1,57 +1,9 @@
-// .modal {
-//   width: 100vw;
-//   height: 100vh;
-//   background-color: rgba(200, 200, 200, 0.5);
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   .container {
-//     width: 500px;
-//     height: 300px;
-//     max-width: 90%;
-//     border-radius: 12px;
-//     background-color: white;
-//     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-//     display: flex;
-//     flex-direction: column;
-//     //padding: 25px;
-//     .closeBtn {
-//       align-self: flex-end; 
-//       margin-right: 10px;
-//       button {
-//         background-color: transparent;
-//         border: none;
-//         font-size: 25px;
-//         cursor: pointer;
-//       }
-//     }
-//     .title {
-//       text-align: center;
-//       margin-top: 10px;
-//     }
-//     .body {
-//       flex: 1;
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       font-size: 1.7rem;
-//       text-align: center;
-//     }
-//   }
-// }
-
-
-
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  
-  .contactButton{
+
+  .contactButton {
     text-decoration: none;
     background: linear-gradient(to right, #f7ca43, #fe9113);
     color: white;
@@ -60,13 +12,21 @@
     border-radius: 30px;
     font-weight: 600;
     box-shadow: 0 0 4px 0 rbga(0, 0, 0, 0.25);
-    &:hover{
+    &:hover {
       border: 2px solid #19fa7a;
     }
     cursor: pointer;
-    a{
+    a {
       text-decoration: none;
       color: inherit;
     }
-    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }

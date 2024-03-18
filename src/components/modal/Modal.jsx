@@ -19,7 +19,7 @@ const Modal = () => {
       {bios.map((item, index) => {
         return (
           <div key={index}>
-            <button className="contactButton" style={{marginRight : "10px"}}>
+            <button className="contactButton" style={{ marginRight: "10px" }}>
               <a href={item.resume} target="_blank">
                 Resume
               </a>

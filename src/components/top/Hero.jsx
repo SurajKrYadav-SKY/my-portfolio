@@ -5,11 +5,10 @@ import { bios } from "../../store/data";
 import Modal from "../modal/Modal";
 
 const Hero = () => {
-
   return (
     <div className="hero">
       <div className="content">
-        {bios.map((bio,index) => (
+        {bios.map((bio, index) => (
           <div key={index}>
             <h1 className="title">Hi, I'm {bio.name}</h1>
             <h2
@@ -21,7 +20,6 @@ const Hero = () => {
             >
               I am a{" "}
               <span style={{ color: "#FB5825", fontWeight: "bold" }}>
-                {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={bio.roles}
                   loop={0}
@@ -36,12 +34,7 @@ const Hero = () => {
             <p>{bio.desc}</p>
           </div>
         ))}
-          <Modal/>
-        
-        {/* <button className="contact" onClick={handleModal}>
-          Contact Me
-        </button>
-        {openModal && <Modal setOpenModal={setOpenModal} />} */}
+        <Modal />
       </div>
       <img src="./images/hero1.png" alt="#" className="img" />
       <div className="topBlur" />
