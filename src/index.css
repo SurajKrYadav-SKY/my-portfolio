@@ -8,3 +8,20 @@ html {
   padding: 0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ec53dc, #ec3361); 
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #f34a34, #fd2b32); 
+}
