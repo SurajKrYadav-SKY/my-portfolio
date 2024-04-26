@@ -13,18 +13,17 @@ html {
   width: 10px; 
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, #ec53dc, #ec3361); 
   border-radius: 5px; 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to right, #f34a34, #fd2b32); 
 }
