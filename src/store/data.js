@@ -79,6 +79,14 @@ export const projects = [
     demo: "null",
     source: "null",
   },
+    {
+    title: "Bl-Pod",
+    img: "./images/ux-design.png",
+    desc: "This is my personal project which is a web based application for blogs and podcasts designed using Figma.",
+    skills: ["Figma"],
+    demo: "null",
+    source: "null",
+  },
   {
     title: "Connect",
     img: "./images/project.png",
