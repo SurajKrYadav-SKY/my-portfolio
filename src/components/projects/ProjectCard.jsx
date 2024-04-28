@@ -4,7 +4,9 @@ import "./ProjectCard.scss";
 const ProjectCard = ({project : {title, img, desc, source, demo, skills} }) => {
   return (
     <div className="container">
-      <img src={img} alt={title}/>
+      <div className="img">
+        <img src={img} alt={title}/>
+      </div>
       <h3>{title}</h3>
       <p>{desc}</p>
       <ul className="skills">
