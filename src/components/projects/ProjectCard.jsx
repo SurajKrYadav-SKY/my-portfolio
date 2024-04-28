@@ -9,9 +9,9 @@ const ProjectCard = ({project : {title, img, desc, source, demo, skills} }) => {
       </div>
       <h3>{title}</h3>
       <p>{desc}</p>
-      <ul className="skills">
+      <ul className="techs">
         {skills.map((skill, id) => {
-          return <li key={id} className="skill">{skill}</li>;
+          return <li key={id} className="tech">{skill}</li>;
         })}
       </ul>
       <div className="links">
