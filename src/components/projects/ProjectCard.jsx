@@ -11,10 +11,10 @@ const ProjectCard = ({
       </div>
       <h3>{title}</h3>
       <p>{desc}</p>
-      <ul className="skills">
+      <ul className="techs">
         {skills.map((skill, id) => {
           return (
-            <li key={id} className="skill">
+            <li key={id} className="tech">
               {skill}
             </li>
           );
