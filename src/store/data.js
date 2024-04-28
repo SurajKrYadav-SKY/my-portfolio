@@ -87,6 +87,14 @@ export const projects = [
     demo: "https://connect-service-markerplace.netlify.app/",
     source: "https://github.com/SurajKrYadav-SKY/Connect-Service-Marketplace",
   },
+  {
+    title: "Bl-Pod",
+    img: "./images/Bl-pod.png",
+    desc: "This is my personal project which is a web based application for blogs and podcasts designed using Figma.",
+    skills: ["Figma"],
+    demo: "null",
+    source: "null",
+  },
 ];
 
 export const skills = [

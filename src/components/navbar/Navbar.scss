@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.navbar{
+.navbar {
   position: relative;
   display: flex;
   align-items: center;
@@ -8,44 +8,43 @@
   padding-top: 50px;
   margin: 0 10%;
 
-  .logo{
+  .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     gap: 10px;
-    .me{
+    .me {
       width: 40px;
       height: 40px;
       border-radius: 100%;
       cursor: pointer;
       border: 2px solid aqua;
-      &:hover{
+      &:hover {
         border: 2px solid rgb(251, 93, 3);
       }
     }
   }
 
-
-  .title{
+  .title {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color : white
+    color: white;
   }
-  .menu{
+  .menu {
     display: flex;
-    .icon{
+    .icon {
       display: none;
     }
-    .items{
+    .items {
       display: flex;
       gap: 20px;
       list-style: none;
-      li{
-        a{
+      li {
+        a {
           font-size: 20px;
-          color : white;
+          color: white;
           text-decoration: none;
 
           &:hover {
@@ -57,29 +56,29 @@
   }
 }
 
-@media screen and (max-width : 830px) {
-  .navbar{
+@media screen and (max-width: 830px) {
+  .navbar {
     flex-direction: column;
     align-items: flex-start;
 
-    .menu{
+    .menu {
       position: absolute;
       right: 0;
-      margin-right: '10%';
+      margin-right: "10%";
       flex-direction: column;
       align-items: flex-end;
       gap: 11px;
       z-index: 3;
 
-      .icon{
+      .icon {
         display: flex;
-        .menuBtn{
+        .menuBtn {
           display: block;
           cursor: pointer;
         }
       }
 
-      .items{
+      .items {
         display: none;
         margin-top: 5px;
         flex-direction: column;
@@ -87,12 +86,16 @@
         gap: 10px;
         border-radius: 10px;
         background: rgb(25, 55, 109);
-        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        background: linear-gradient(
+          0deg,
+          rgba(25, 55, 109, 0.2) 0%,
+          rgba(25, 55, 109, 1) 100%
+        );
         padding: 25px 30px;
-        box-shadow: 0 0 4px rgba(0,0,0,0.25);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
       }
 
-      .menuOpen{
+      .menuOpen {
         display: flex;
         z-index: 1;
       }
