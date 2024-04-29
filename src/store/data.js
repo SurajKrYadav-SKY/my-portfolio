@@ -95,6 +95,14 @@ export const projects = [
     demo: "https://connect-service-markerplace.netlify.app/",
     source: "https://github.com/SurajKrYadav-SKY/Connect-Service-Marketplace",
   },
+    {
+    title: "Adv-Filtering",
+    img: "./images/adv.png",
+    desc: "This project is a web-based React application that demonstrates product filtering across various categories, including price, brand, color, and more.",
+    skills: ["ReactJS", "scss", "JS"],
+    demo: "https://adv-filtering.netlify.app",
+    source: "https://github.com/SurajKrYadav-SKY/Advance-Filtering",
+  },
 ];
 
 export const skills = [
