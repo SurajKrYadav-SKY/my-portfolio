@@ -18,7 +18,7 @@ const Modal = () => {
       {openModal && <ShowModal setOpenModal={setOpenModal} />}
       {bios.map((item, index) => {
         return (
-          <div key={index}>
+          <div className="bottom" key={index}>
             <button className="contactButton" style={{ marginRight: "10px" }}>
               <a href={item.resume} target="_blank">
                 Resume
