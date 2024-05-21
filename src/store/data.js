@@ -2,7 +2,7 @@ export const about = [
   {
     title: "Frontend Developer",
     img: "./images/front-end.png",
-    desc: "I'm a frontend developer with experience in building responsive and and oprimized sites.",
+    desc: "I'm a frontend developer with experience in building responsive and optimized sites.",
   },
   {
     title: "Fullstack Developer",
@@ -29,7 +29,7 @@ export const experiences = [
     endDate: "August 2023",
     experience: [
       "Worked as a frontend developer",
-      "Build the required UI of the assigned project",
+      "Built the required UI of the assigned project",
     ],
     img: "./images/int1.jpg",
   },
@@ -40,7 +40,7 @@ export const experiences = [
     endDate: "present",
     experience: [
       "Working as a frontend developer",
-      "Working on the UI of Payroll Software ",
+      "Working on the UI of Payroll Software",
     ],
     img: "./images/alorb.png",
   },
@@ -79,39 +79,21 @@ export const projects = [
     demo: "null",
     source: "null",
   },
-    {
-    title: "Bl-Pod",
-    img: "./images/Bl-pod.png",
-    desc: "This is my personal project which is a web based application for blogs and podcasts designed using Figma.",
-    skills: ["Figma"],
-    demo: "null",
-    source: "null",
-  },
   {
     title: "Connect",
     img: "./images/project.png",
-    desc: "The UI of a service market place. For more details go to source or demo",
+    desc: "The UI of a service marketplace. For more details go to source or demo.",
     skills: ["ReactJS", "scss", "JS"],
     demo: "https://connect-service-markerplace.netlify.app/",
     source: "https://github.com/SurajKrYadav-SKY/Connect-Service-Marketplace",
   },
-<<<<<<< HEAD
   {
     title: "Bl-Pod",
     img: "./images/Bl-pod.png",
-    desc: "This is my personal project which is a web based application for blogs and podcasts designed using Figma.",
+    desc: "This is my personal project which is a web-based application for blogs and podcasts designed using Figma.",
     skills: ["Figma"],
     demo: "null",
     source: "null",
-=======
-    {
-    title: "Adv-Filtering",
-    img: "./images/adv.png",
-    desc: "This project is a web-based React application that demonstrates product filtering across various categories, including price, brand, color, and more.",
-    skills: ["ReactJS", "scss", "JS"],
-    demo: "https://adv-filtering.netlify.app",
-    source: "https://github.com/SurajKrYadav-SKY/Advance-Filtering",
->>>>>>> bf92e9a7114c2d1aa450ac45e71a21bd48ade8d4
   },
 ];
 
@@ -119,97 +101,37 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "React Js",
-        image: "./images/react.png",
-      },
-      {
-        name: "React Native",
-        image: "./images/physics.png",
-      },
-      {
-        name: "Redux",
-        image: "./images/redux.png",
-      },
-      {
-        name: "HTML",
-        image: "./images/html.png",
-      },
-      {
-        name: "CSS",
-        image: "./images/css-3.png",
-      },
-      {
-        name: "JavaScript",
-        image: "./images/js.png",
-      },
-      {
-        name: "Bootstrap",
-        image: "./images/bootstrap.png",
-      },
-      {
-        name: "Material UI",
-        image: "./images/material-ui.png",
-      },
-      {
-        name: "Tailwind CSS",
-        image: "./images/tailwind.png",
-      },
+      { name: "React Js", image: "./images/react.png" },
+      { name: "React Native", image: "./images/physics.png" },
+      { name: "Redux", image: "./images/redux.png" },
+      { name: "HTML", image: "./images/html.png" },
+      { name: "CSS", image: "./images/css-3.png" },
+      { name: "JavaScript", image: "./images/js.png" },
+      { name: "Bootstrap", image: "./images/bootstrap.png" },
+      { name: "Material UI", image: "./images/material-ui.png" },
+      { name: "Tailwind CSS", image: "./images/tailwind.png" },
     ],
   },
   {
     title: "Backend",
     skills: [
-      {
-        name: "Node Js",
-        image: "./images/node.png",
-      },
-      {
-        name: "Express Js",
-        image: "./images/js.png",
-      },
-
-      {
-        name: "MySQL",
-        image: "./images/mysql.png",
-      },
-      {
-        name: "MongoDB",
-        image: "/images/mongodb.png",
-      },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      { name: "Node Js", image: "./images/node.png" },
+      { name: "Express Js", image: "./images/js.png" },
+      { name: "MySQL", image: "./images/mysql.png" },
+      { name: "MongoDB", image: "./images/mongodb.png" },
+      // Uncomment the following line if you have the image URL
+      // { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
     ],
   },
   {
     title: "Others",
     skills: [
-      {
-        name: "Git",
-        image: "./images/git.png",
-      },
-      {
-        name: "GitHub",
-        image: "./images/github.png",
-      },
-      {
-        name: "Netlify",
-        image: "./images/netlify.png",
-      },
-      {
-        name: "VS Code",
-        image: "./images/vs-code.png",
-      },
-      {
-        name: "Postman",
-        image: "./images/postman.png",
-      },
-      {
-        name: "Figma",
-        image: "./images/figma.png",
-      },
+      { name: "Git", image: "./images/git.png" },
+      { name: "GitHub", image: "./images/github.png" },
+      { name: "Netlify", image: "./images/netlify.png" },
+      { name: "VS Code", image: "./images/vs-code.png" },
+      { name: "Postman", image: "./images/postman.png" },
+      { name: "Figma", image: "./images/figma.png" },
     ],
   },
 ];
@@ -218,10 +140,10 @@ export const bios = [
   {
     name: "Suraj Kumar Yadav",
     roles: [
-      " Full Stack Developer",
-      " React Native App Developer",
-      " UI/UX Designer",
-      " programmer",
+      "Full Stack Developer",
+      "React Native App Developer",
+      "UI/UX Designer",
+      "Programmer",
     ],
     desc: `Enthusiastic web developer with a focus on front-end development,
     proficient in creating captivating user interfaces for web and mobile
@@ -234,7 +156,6 @@ export const bios = [
 
     linkedIn: "https://www.linkedin.com/in/suraj-kumar-yadav003iiitmanipur/",
     github: "#",
-    resume:
-      "https://drive.google.com/file/d/1Y7xDySz-l3QntZHryr0LM9UDqVBnwmn9/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1Y7xDySz-l3QntZHryr0LM9UDqVBnwmn9/view?usp=sharing",
   },
 ];
