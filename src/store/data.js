@@ -79,6 +79,14 @@ export const projects = [
     demo: "null",
     source: "null",
   },
+    {
+    title: "Bl-Pod",
+    img: "./images/Bl-pod.png",
+    desc: "This is my personal project which is a web based application for blogs and podcasts designed using Figma.",
+    skills: ["Figma"],
+    demo: "null",
+    source: "null",
+  },
   {
     title: "Connect",
     img: "./images/project.png",
@@ -87,6 +95,7 @@ export const projects = [
     demo: "https://connect-service-markerplace.netlify.app/",
     source: "https://github.com/SurajKrYadav-SKY/Connect-Service-Marketplace",
   },
+<<<<<<< HEAD
   {
     title: "Bl-Pod",
     img: "./images/Bl-pod.png",
@@ -94,6 +103,15 @@ export const projects = [
     skills: ["Figma"],
     demo: "null",
     source: "null",
+=======
+    {
+    title: "Adv-Filtering",
+    img: "./images/adv.png",
+    desc: "This project is a web-based React application that demonstrates product filtering across various categories, including price, brand, color, and more.",
+    skills: ["ReactJS", "scss", "JS"],
+    demo: "https://adv-filtering.netlify.app",
+    source: "https://github.com/SurajKrYadav-SKY/Advance-Filtering",
+>>>>>>> bf92e9a7114c2d1aa450ac45e71a21bd48ade8d4
   },
 ];
 

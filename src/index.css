@@ -13,12 +13,18 @@ html {
   width: 10px; 
 }
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> bf92e9a7114c2d1aa450ac45e71a21bd48ade8d4
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf92e9a7114c2d1aa450ac45e71a21bd48ade8d4
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, #ec53dc, #ec3361); 
   border-radius: 5px; 
@@ -26,4 +32,8 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to right, #f34a34, #fd2b32); 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bf92e9a7114c2d1aa450ac45e71a21bd48ade8d4
