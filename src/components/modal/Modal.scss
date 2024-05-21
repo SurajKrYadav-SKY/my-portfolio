@@ -3,6 +3,11 @@
   flex-direction: row;
   gap: 10px;
 
+    .bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
   .contactButton {
     text-decoration: none;
     background: linear-gradient(to right, #f7ca43, #fe9113);
