@@ -145,14 +145,10 @@ export const bios = [
       "UI/UX Designer",
       "Programmer",
     ],
-    desc: `Enthusiastic web developer with a focus on front-end development,
-    proficient in creating captivating user interfaces for web and mobile
-    applications. Skilled in React.js and React Native, with a keen eye
-    for UI/UX design. While I may not yet be fully confident in backend
-    development, I am actively learning and improving through
-    self-learning and leveraging online resources and documentation.
-    Committed to delivering polished and intuitive experiences while
-    contributing effectively in collaborative environments.`,
+    desc: `Enthusiastic full-stack web developer proficient in creating captivating user interfaces
+    and robust backend systems for web and mobile applications. Skilled in React.js and React Native for front-end development,
+    with a keen eye for UI/UX design. Confident in backend development using Node.js, Express, and MongoDB.
+    Committed to delivering polished and intuitive experiences while contributing effectively in collaborative environments.`,
 
     linkedIn: "https://www.linkedin.com/in/suraj-kumar-yadav003iiitmanipur/",
     github: "#",
